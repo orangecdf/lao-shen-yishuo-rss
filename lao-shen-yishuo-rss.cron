@@ -1,0 +1,3 @@
+SHELL=/bin/sh
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+17 */6 * * * root /root/lao-shen-yishuo-rss/refresh_local.sh >> /var/log/lao-shen-yishuo-rss.log 2>&1
